@@ -17,7 +17,7 @@ module.exports = {
         background_color: "#0a192f",
         theme_color: "#0a192f",
         display: "minimal-ui",
-        icon: "static/logo.png",
+        icon: "static/logo.png", // ✅ update path
       },
     },
     `gatsby-plugin-image`,
@@ -33,6 +33,6 @@ module.exports = {
         ],
         display: 'swap'
       }
-    }
+    },
   ],
 };

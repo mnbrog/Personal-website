@@ -139,8 +139,9 @@ const experiences = [
     location: "Remote",
     logo: "logo.png",
     details: [
-      "Designed and developed this website using Gatsby and styled-components to showcase projects and experience."
-    ]
+      "Built a fully responsive Gatsby site using React and Styled-Components, ensuring seamless viewing on phones, tablets, and desktops.",
+      "Implemented CSS Scroll Snap for smooth, section-by-section navigation across all devices.",
+      "Integrated interactive contact cards, animations, and a mobile-first navigation menu for intuitive engagement and accessibility."    ]
   },
    {
     company: "GrowLab",
@@ -160,8 +161,8 @@ const experiences = [
     logo: "University-of-Alabama-Logo.png",
     details: [
       "Bachelor of Science in Management Information Systems (MIS)",
-      "Double Major in Computer Science",
-      "Expected Graduation: May 2025"
+      "Minor in Computer Science",
+      "Graduated: May 2025"
     ]
   }
 ];

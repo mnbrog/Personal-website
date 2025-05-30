@@ -15,7 +15,6 @@ const StyledHeader = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   z-index: 999;
   box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
 `;
@@ -24,7 +23,6 @@ const Logo = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0rem;
 
   img {
     height: 140px;
@@ -43,24 +41,32 @@ const Logo = styled.div`
 const NavLinks = styled.ol`
   display: flex;
   list-style: none;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;              /* prevent wrapping */
   justify-content: center;
+  gap: 2rem;                     /* spacing between items */
   width: 100%;
   text-align: center;
 
+  @media (max-width: 1024px) {
+    gap: 1.5rem;
+  }
+  @media (max-width: 768px) {
+    gap: 1rem;
+  }
+
   li {
-    margin: 0 1.5rem;
+    margin: 0;                    /* remove default margins */
+  }
 
-    a {
-      color: ${({ theme }) => theme.colors.lightSlate};
-      font-weight: 500;
-      text-decoration: none;
-      font-size: 1rem;
-      transition: color 0.3s;
+  a {
+    color: ${({ theme }) => theme.colors.lightSlate};
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
 
-      &:hover {
-        color: ${({ theme }) => theme.colors.white};
-      }
+    &:hover {
+      color: ${({ theme }) => theme.colors.white};
     }
   }
 `;

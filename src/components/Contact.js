@@ -27,7 +27,7 @@ const Title = styled.h2`
 const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 24px;
   width: 100%;
   justify-items: center;
 
@@ -42,6 +42,9 @@ const Grid = styled.div`
 
 const Card = styled.a`
   background-color: ${({ theme }) => theme.colors.lightNavy};
+  width: 100%;
+  max-width: 280px;
+  min-height: 220px;
   padding: 20px;
   border-radius: 8px;
   color: inherit;
@@ -49,6 +52,7 @@ const Card = styled.a`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
   transition: transform 0.3s ease;
 
@@ -58,18 +62,17 @@ const Card = styled.a`
 
   img {
     background: white;
-    max-height: 100px;
+    max-height: 80px;
     width: auto;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     object-fit: contain;
-    padding: 10px;
+    padding: 8px;
     border-radius: 4px;
   }
 
   h3 {
     margin: 0;
     font-size: 18px;
-    text-align: center;
     color: ${({ theme }) => theme.colors.white};
   }
 
@@ -83,7 +86,7 @@ const Card = styled.a`
 const contacts = [
   {
     name: "Email",
-    description: "Reach out about working together!",
+    description: "Reach out to me on email!",
     logo: "https://cdn-icons-png.flaticon.com/512/561/561127.png",
     url: "mailto:mnbrogan32@gmail.com"
   },

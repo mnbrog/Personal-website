@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 const Section = styled.section`
-  padding: 150px 20px;
+  padding: 250px 20px;
   text-align: center;
   color: ${({ theme }) => theme.colors.white};
   display: flex;

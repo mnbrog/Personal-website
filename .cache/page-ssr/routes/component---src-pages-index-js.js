@@ -16528,7 +16528,7 @@ const Section = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].sectio
 })(["max-width:1200px;margin:0 auto;padding:150px 20px;display:flex;flex-direction:column;align-items:center;@media (max-width:768px){padding:100px 20px;}"]);
 const Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2.withConfig({
   displayName: "About__Title"
-})(["font-size:clamp(26px,5vw,32px);color:", ";font-weight:700;margin-top:60px;text-align:center;"], ({
+})(["font-size:clamp(26px,5vw,32px);color:", ";font-weight:700;margin-top:20px;text-align:center;"], ({
   theme
 }) => theme.colors.white);
 const Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
@@ -16536,7 +16536,7 @@ const Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.wi
 })(["display:flex;flex-direction:column;align-items:center;text-align:center;"]);
 const Text = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div).withConfig({
   displayName: "About__Text"
-})(["max-width:700px;color:", ";font-size:16px;line-height:1.6;"], ({
+})(["max-width:600px;color:", ";font-size:16px;line-height:1.6;align-items:center;text-align:center;"], ({
   theme
 }) => theme.colors.lightSlate);
 const Skills = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
@@ -16759,7 +16759,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const Section = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section.withConfig({
   displayName: "Hero__Section"
-})(["padding:150px 20px;text-align:center;color:", ";display:flex;flex-direction:column;align-items:center;justify-content:center;@media (max-width:768px){padding:100px 20px;}"], ({
+})(["padding:250px 20px;text-align:center;color:", ";display:flex;flex-direction:column;align-items:center;justify-content:center;@media (max-width:768px){padding:100px 20px;}"], ({
   theme
 }) => theme.colors.white);
 const Intro = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2.withConfig({
@@ -16868,7 +16868,7 @@ const StyledHeader = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].h
 }) => theme.colors.navy);
 const Logo = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "Nav__Logo"
-})(["display:flex;justify-content:center;align-items:center;margin-bottom:1rem;img{height:140px;width:auto;@media (max-width:768px){height:100px;}@media (max-width:480px){height:80px;}}"]);
+})(["display:flex;justify-content:center;align-items:center;margin-bottom:0rem;img{height:140px;width:auto;@media (max-width:768px){height:100px;}@media (max-width:480px){height:80px;}}"]);
 const NavLinks = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].ol.withConfig({
   displayName: "Nav__NavLinks"
 })(["display:flex;list-style:none;flex-wrap:wrap;justify-content:center;width:100%;text-align:center;li{margin:0 1.5rem;a{color:", ";font-weight:500;text-decoration:none;font-size:1rem;transition:color 0.3s;&:hover{color:", ";}}}"], ({
@@ -17025,7 +17025,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Experience__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Experience */ "./src/components/Experience.js");
 /* harmony import */ var _components_Projects__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Projects */ "./src/components/Projects.js");
 /* harmony import */ var _components_Contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/Contact */ "./src/components/Contact.js");
-// src/pages/index.js
 
 
 
@@ -17034,45 +17033,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const IndexPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  id: "hero",
-  style: {
-    minHeight: "100vh",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center"
-  }
+  id: "hero"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Hero__WEBPACK_IMPORTED_MODULE_2__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  id: "about",
-  style: {
-    minHeight: "100vh",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center"
-  }
+  id: "about"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_About__WEBPACK_IMPORTED_MODULE_3__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  id: "experience",
-  style: {
-    minHeight: "100vh",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center"
-  }
+  id: "experience"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Experience__WEBPACK_IMPORTED_MODULE_4__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  id: "projects",
-  style: {
-    minHeight: "100vh",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center"
-  }
+  id: "projects"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Projects__WEBPACK_IMPORTED_MODULE_5__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-  id: "contact",
-  style: {
-    minHeight: "100vh",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center"
-  }
+  id: "contact"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Contact__WEBPACK_IMPORTED_MODULE_6__["default"], null)));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
 
