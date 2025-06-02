@@ -66,7 +66,7 @@ const About = () => (
         transition={{ duration: 0.8 }}
       >
         <p>
-          I'm Michael Brogan — a passionate web developer, software engineer, and design-focused problem solver based in Tuscaloosa, AL. I specialize in building elegant, scalable web solutions using cutting-edge technologies.
+          I'm Michael Brogan, a passionate web developer, software engineer, and design-focused problem solver based in Birmingham, AL. I specialize in building elegant, scalable web solutions using cutting-edge technologies.
         </p>
         <p>
           With experience from internships at Tractor Supply Company and Vacayzen, and leading my own design agency GrowLab, I’ve developed a strong foundation in modern frameworks and technologies.

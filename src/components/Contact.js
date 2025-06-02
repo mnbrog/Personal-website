@@ -26,15 +26,17 @@ const Title = styled.h2`
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
   width: 100%;
   justify-items: center;
 
+  /* 2 columns when viewport ≤ 1024px */
   @media (max-width: 1024px) {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  /* 1 column when viewport ≤ 600px */
   @media (max-width: 600px) {
     grid-template-columns: 1fr;
   }
@@ -83,25 +85,33 @@ const Card = styled.a`
   }
 `;
 
+// “Resume” card first, followed by Email, LinkedIn, GitHub
 const contacts = [
+  {
+    name: "Resume",
+    description: "Download my resume",
+    logo: "https://cdn-icons-png.flaticon.com/512/136/136538.png",
+    url: "/Michael-Brogan-Resume.pdf",
+    download: true,
+  },
   {
     name: "Email",
     description: "Reach out to me on email!",
     logo: "https://cdn-icons-png.flaticon.com/512/561/561127.png",
-    url: "mailto:mnbrogan32@gmail.com"
+    url: "mailto:mnbrogan32@gmail.com",
   },
   {
     name: "LinkedIn",
     description: "Connect with me on LinkedIn",
     logo: "https://cdn-icons-png.flaticon.com/512/174/174857.png",
-    url: "https://www.linkedin.com/in/michaelbr0gan/"
+    url: "https://www.linkedin.com/in/michaelbr0gan/",
   },
   {
     name: "GitHub",
     description: "Check out my GitHub projects",
     logo: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
-    url: "https://github.com/mnbrog"
-  }
+    url: "https://github.com/mnbrog",
+  },
 ];
 
 const Contact = () => (
@@ -109,7 +119,13 @@ const Contact = () => (
     <Title>Contact</Title>
     <Grid>
       {contacts.map((contact, index) => (
-        <Card key={index} href={contact.url} target="_blank" rel="noopener noreferrer">
+        <Card
+          key={index}
+          href={contact.url}
+          {...(contact.download
+            ? { download: true }
+            : { target: "_blank", rel: "noopener noreferrer" })}
+        >
           <img src={contact.logo} alt={contact.name} />
           <h3>{contact.name}</h3>
           <p>{contact.description}</p>

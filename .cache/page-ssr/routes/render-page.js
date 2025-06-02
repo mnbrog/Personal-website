@@ -13479,9 +13479,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   GlobalStyle: () => (/* binding */ GlobalStyle)
 /* harmony export */ });
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
-// src/components/styles/GlobalStyle.js
 
-const GlobalStyle = (0,styled_components__WEBPACK_IMPORTED_MODULE_0__.createGlobalStyle)(["html,body{margin:0;padding:0;background-color:", ";color:", ";font-family:", ";font-size:16px;scroll-behavior:smooth;display:flex;justify-content:center;}a{color:", ";text-decoration:none;transition:color 0.3s ease;}a:hover{color:", ";}h1,h2,h3,h4{color:", ";margin:0;font-weight:700;}p{max-width:600px;line-height:1.8;}::-webkit-scrollbar{width:8px;}::-webkit-scrollbar-track{background:", ";}::-webkit-scrollbar-thumb{background:", ";}"], ({
+const GlobalStyle = (0,styled_components__WEBPACK_IMPORTED_MODULE_0__.createGlobalStyle)(["*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}html{scroll-snap-type:y mandatory;scroll-behavior:smooth;overflow-x:hidden;}body{background-color:", ";color:", ";font-family:", ";font-size:16px;margin:0;padding:0;}a{color:", ";text-decoration:none;transition:color 0.3s ease;}a:hover{color:", ";}h1,h2,h3,h4,h5{color:", ";font-weight:700;}p{max-width:600px;line-height:1.8;}::-webkit-scrollbar{width:8px;}::-webkit-scrollbar-track{background:", ";}::-webkit-scrollbar-thumb{background:", ";border-radius:4px;}section{scroll-snap-align:start;scroll-snap-stop:always;min-height:100vh;padding:80px 20px;display:flex;flex-direction:column;justify-content:center;}@media (max-width:768px){section{padding:60px 16px;}}nav{width:100%;max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:16px 20px;}.nav-links{display:flex;gap:24px;}.mobile-nav-toggle{display:none;background:none;border:none;font-size:1.5rem;cursor:pointer;color:", ";}@media (max-width:768px){.nav-links{display:none;}.mobile-nav-toggle{display:block;}}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto;}}"], ({
   theme
 }) => theme.colors.navy, ({
   theme
@@ -13496,6 +13495,8 @@ const GlobalStyle = (0,styled_components__WEBPACK_IMPORTED_MODULE_0__.createGlob
 }) => theme.colors.white, ({
   theme
 }) => theme.colors.navy, ({
+  theme
+}) => theme.colors.accent, ({
   theme
 }) => theme.colors.accent);
 

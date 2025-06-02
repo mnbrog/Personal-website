@@ -16563,7 +16563,7 @@ const About = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().cr
   transition: {
     duration: 0.8
   }
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I'm Michael Brogan \u2014 a passionate web developer, software engineer, and design-focused problem solver based in Tuscaloosa, AL. I specialize in building elegant, scalable web solutions using cutting-edge technologies."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "With experience from internships at Tractor Supply Company and Vacayzen, and leading my own design agency GrowLab, I\u2019ve developed a strong foundation in modern frameworks and technologies."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I value clean code, seamless UX, and efficient processes. Whether I'm collaborating with a team or leading a project, I aim to make an impact with every line of code."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skills, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "React"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Vue"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Java"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "SQL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "C++"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "HTML"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "CSS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "MongoDB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Spring Boot"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Bootstrap"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Postman"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Git")))));
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I'm Michael Brogan, a passionate web developer, software engineer, and design-focused problem solver based in Tuscaloosa, AL. I specialize in building elegant, scalable web solutions using cutting-edge technologies."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "With experience from internships at Tractor Supply Company and Vacayzen, and leading my own design agency GrowLab, I\u2019ve developed a strong foundation in modern frameworks and technologies."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I value clean code, seamless UX, and efficient processes. Whether I'm collaborating with a team or leading a project, I aim to make an impact with every line of code."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skills, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "React"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Vue"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Java"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "SQL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "C++"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "HTML"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "CSS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "MongoDB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Spring Boot"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Bootstrap"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Postman"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Git")))));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
 
 /***/ }),
@@ -16594,10 +16594,10 @@ const Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2.withC
 }) => theme.colors.white);
 const Grid = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Contact__Grid"
-})(["display:grid;grid-template-columns:repeat(3,1fr);gap:20px;width:100%;justify-items:center;@media (max-width:1024px){grid-template-columns:repeat(2,1fr);}@media (max-width:600px){grid-template-columns:1fr;}"]);
+})(["display:grid;grid-template-columns:repeat(3,1fr);gap:24px;width:100%;justify-items:center;@media (max-width:1024px){grid-template-columns:repeat(2,1fr);}@media (max-width:600px){grid-template-columns:1fr;}"]);
 const Card = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withConfig({
   displayName: "Contact__Card"
-})(["background-color:", ";padding:20px;border-radius:8px;color:inherit;text-decoration:none;display:flex;flex-direction:column;align-items:center;text-align:center;transition:transform 0.3s ease;&:hover{transform:translateY(-5px);}img{background:white;max-height:100px;width:auto;margin-bottom:20px;object-fit:contain;padding:10px;border-radius:4px;}h3{margin:0;font-size:18px;text-align:center;color:", ";}p{font-size:14px;color:", ";margin:8px 0 0;}"], ({
+})(["background-color:", ";width:100%;max-width:280px;min-height:220px;padding:20px;border-radius:8px;color:inherit;text-decoration:none;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;transition:transform 0.3s ease;&:hover{transform:translateY(-5px);}img{background:white;max-height:80px;width:auto;margin-bottom:16px;object-fit:contain;padding:8px;border-radius:4px;}h3{margin:0;font-size:18px;color:", ";}p{font-size:14px;color:", ";margin:8px 0 0;}"], ({
   theme
 }) => theme.colors.lightNavy, ({
   theme
@@ -16606,7 +16606,7 @@ const Card = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withCon
 }) => theme.colors.lightSlate);
 const contacts = [{
   name: "Email",
-  description: "Reach out about working together!",
+  description: "Reach out to me on email!",
   logo: "https://cdn-icons-png.flaticon.com/512/561/561127.png",
   url: "mailto:mnbrogan32@gmail.com"
 }, {
@@ -16701,7 +16701,7 @@ const experiences = [{
   role: "Project",
   location: "Remote",
   logo: "logo.png",
-  details: ["Designed and developed this website using Gatsby and styled-components to showcase projects and experience."]
+  details: ["Built a fully responsive Gatsby site using React and Styled-Components, ensuring seamless viewing on phones, tablets, and desktops.", "Implemented CSS Scroll Snap for smooth, section-by-section navigation across all devices.", "Integrated interactive contact cards, animations, and a mobile-first navigation menu for intuitive engagement and accessibility."]
 }, {
   company: "GrowLab",
   role: "Founder & Lead Developer",
@@ -16713,7 +16713,7 @@ const experiences = [{
   role: "Education",
   location: "Tuscaloosa, AL",
   logo: "University-of-Alabama-Logo.png",
-  details: ["Bachelor of Science in Management Information Systems (MIS)", "Double Major in Computer Science", "Expected Graduation: May 2025"]
+  details: ["Bachelor of Science in Management Information Systems (MIS)", "Minor in Computer Science", "Graduated: May 2025"]
 }];
 const Experience = () => {
   const {
@@ -16863,15 +16863,15 @@ __webpack_require__.r(__webpack_exports__);
 
 const StyledHeader = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].header.withConfig({
   displayName: "Nav__StyledHeader"
-})(["position:fixed;top:0;left:50%;transform:translateX(-50%);width:100%;max-width:1200px;padding:2rem 2rem 1rem;background-color:", ";display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;box-shadow:0 10px 30px -10px rgba(2,12,27,0.7);"], ({
+})(["position:fixed;top:0;left:50%;transform:translateX(-50%);width:100%;max-width:1200px;padding:2rem 2rem 1rem;background-color:", ";display:flex;flex-direction:column;align-items:center;z-index:999;box-shadow:0 10px 30px -10px rgba(2,12,27,0.7);"], ({
   theme
 }) => theme.colors.navy);
 const Logo = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "Nav__Logo"
-})(["display:flex;justify-content:center;align-items:center;margin-bottom:0rem;img{height:140px;width:auto;@media (max-width:768px){height:100px;}@media (max-width:480px){height:80px;}}"]);
+})(["display:flex;justify-content:center;align-items:center;img{height:140px;width:auto;@media (max-width:768px){height:100px;}@media (max-width:480px){height:80px;}}"]);
 const NavLinks = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].ol.withConfig({
   displayName: "Nav__NavLinks"
-})(["display:flex;list-style:none;flex-wrap:wrap;justify-content:center;width:100%;text-align:center;li{margin:0 1.5rem;a{color:", ";font-weight:500;text-decoration:none;font-size:1rem;transition:color 0.3s;&:hover{color:", ";}}}"], ({
+})(["display:flex;list-style:none;flex-wrap:nowrap;justify-content:center;gap:2rem;width:100%;text-align:center;@media (max-width:1024px){gap:1.5rem;}@media (max-width:768px){gap:1rem;}li{margin:0;}a{color:", ";font-weight:500;text-decoration:none;font-size:1rem;transition:color 0.3s;&:hover{color:", ";}}"], ({
   theme
 }) => theme.colors.lightSlate, ({
   theme
