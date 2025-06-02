@@ -16563,7 +16563,7 @@ const About = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().cr
   transition: {
     duration: 0.8
   }
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I'm Michael Brogan, a passionate web developer, software engineer, and design-focused problem solver based in Tuscaloosa, AL. I specialize in building elegant, scalable web solutions using cutting-edge technologies."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "With experience from internships at Tractor Supply Company and Vacayzen, and leading my own design agency GrowLab, I\u2019ve developed a strong foundation in modern frameworks and technologies."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I value clean code, seamless UX, and efficient processes. Whether I'm collaborating with a team or leading a project, I aim to make an impact with every line of code."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skills, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "React"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Vue"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Java"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "SQL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "C++"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "HTML"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "CSS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "MongoDB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Spring Boot"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Bootstrap"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Postman"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Git")))));
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I'm Michael Brogan, a passionate web developer, software engineer, and design-focused problem solver based in Birmingham, AL. I specialize in building elegant, scalable web solutions using cutting-edge technologies."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "With experience from internships at Tractor Supply Company and Vacayzen, and leading my own design agency GrowLab, I\u2019ve developed a strong foundation in modern frameworks and technologies."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I value clean code, seamless UX, and efficient processes. Whether I'm collaborating with a team or leading a project, I aim to make an impact with every line of code."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skills, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "React"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Vue"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Java"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "SQL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "C++"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "HTML"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "CSS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "MongoDB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Spring Boot"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Bootstrap"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Postman"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Git")))));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
 
 /***/ }),
@@ -16594,7 +16594,7 @@ const Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2.withC
 }) => theme.colors.white);
 const Grid = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Contact__Grid"
-})(["display:grid;grid-template-columns:repeat(3,1fr);gap:24px;width:100%;justify-items:center;@media (max-width:1024px){grid-template-columns:repeat(2,1fr);}@media (max-width:600px){grid-template-columns:1fr;}"]);
+})(["display:grid;grid-template-columns:repeat(4,1fr);gap:24px;width:100%;justify-items:center;@media (max-width:1024px){grid-template-columns:repeat(2,1fr);}@media (max-width:600px){grid-template-columns:1fr;}"]);
 const Card = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withConfig({
   displayName: "Contact__Card"
 })(["background-color:", ";width:100%;max-width:280px;min-height:220px;padding:20px;border-radius:8px;color:inherit;text-decoration:none;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;transition:transform 0.3s ease;&:hover{transform:translateY(-5px);}img{background:white;max-height:80px;width:auto;margin-bottom:16px;object-fit:contain;padding:8px;border-radius:4px;}h3{margin:0;font-size:18px;color:", ";}p{font-size:14px;color:", ";margin:8px 0 0;}"], ({
@@ -16604,7 +16604,15 @@ const Card = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withCon
 }) => theme.colors.white, ({
   theme
 }) => theme.colors.lightSlate);
+
+// “Resume” card first, followed by Email, LinkedIn, GitHub
 const contacts = [{
+  name: "Resume",
+  description: "Download my resume",
+  logo: "https://cdn-icons-png.flaticon.com/512/136/136538.png",
+  url: "/Michael-Brogan-Resume.pdf",
+  download: true
+}, {
   name: "Email",
   description: "Reach out to me on email!",
   logo: "https://cdn-icons-png.flaticon.com/512/561/561127.png",
@@ -16622,12 +16630,15 @@ const contacts = [{
 }];
 const Contact = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, {
   id: "contact"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Title, null, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Grid, null, contacts.map((contact, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Card, {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Title, null, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Grid, null, contacts.map((contact, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Card, Object.assign({
   key: index,
-  href: contact.url,
+  href: contact.url
+}, contact.download ? {
+  download: true
+} : {
   target: "_blank",
   rel: "noopener noreferrer"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
   src: contact.logo,
   alt: contact.name
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, contact.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, contact.description)))));
@@ -16911,6 +16922,7 @@ __webpack_require__.r(__webpack_exports__);
 // src/components/Projects.js
 
 
+
 const Section = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section.withConfig({
   displayName: "Projects__Section"
 })(["max-width:1200px;margin:0 auto;padding:150px 0;display:flex;flex-direction:column;align-items:center;@media (max-width:768px){padding:100px 0;}"]);
@@ -16991,6 +17003,25 @@ const projects = [{
   description: "Hunting Club · Pike County, IL",
   logo: "https://assets.softr-files.com/applications/88821f58-d243-494b-b3be-64760e4d8c65/assets/f6f94c34-affc-4368-ace3-33fd34450522.png",
   url: "https://www.farmlandtrophies.com/"
+},
+// ───────────────────────────────────────────────────────────────────
+// Newly added entries (make sure the file paths match where you store these PNGs):
+// ───────────────────────────────────────────────────────────────────
+{
+  name: "Alta Vida Tezcal",
+  description: "Tequila · Infused with Hemp",
+  logo: "../all veda logo.png",
+  url: "https://www.altavidatezcal.com/"
+}, {
+  name: "Coral Ray MSHP",
+  description: "Fly Fishing · Coral Ray",
+  logo: "../wise+timucuan+logo.png",
+  url: "https://coral-ray-mshp.squarespace.com/"
+}, {
+  name: "Kerr Chief",
+  description: "Outdoors · Kerr Chief",
+  logo: "../Arrowhead_LGO.png",
+  url: "https://www.kerr-chief.com/"
 }];
 const Projects = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, {
   id: "projects"
