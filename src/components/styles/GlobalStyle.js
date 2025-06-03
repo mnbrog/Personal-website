@@ -1,3 +1,4 @@
+// src/components/styles/GlobalStyle.js
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
@@ -21,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 16px;
     margin: 0;
     padding: 0;
+    line-height: 1.62;  /* non-standard, “hand‑tuned” */
   }
 
   /* === Links === */
@@ -37,6 +39,7 @@ export const GlobalStyle = createGlobalStyle`
   h1, h2, h3, h4, h5 {
     color: ${({ theme }) => theme.colors.white};
     font-weight: 700;
+    line-height: 1.25;  /* non-round heading line-height */
   }
   p {
     max-width: 600px;
@@ -64,6 +67,16 @@ export const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    /* initially hidden & shifted down for slide-in */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+  }
+  /* when JS adds .visible, section slides up and fades in */
+  section.visible {
+    opacity: 1;
+    transform: translateY(0);
   }
   @media (max-width: 768px) {
     section {
@@ -71,7 +84,16 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
-  /* === Responsive Navigation === */
+  /* === Project Grid Fine‑tune === */
+  @media (max-width: 920px) {
+    .projects-grid {
+      grid-template-columns: 1fr 1fr !important;
+    }
+  }
+
+ 
+
+  /* === Responsive Navigation (example) === */
   nav {
     width: 100%;
     max-width: 1200px;
@@ -93,7 +115,6 @@ export const GlobalStyle = createGlobalStyle`
     cursor: pointer;
     color: ${({ theme }) => theme.colors.accent};
   }
-
   @media (max-width: 768px) {
     .nav-links {
       display: none;
@@ -107,6 +128,10 @@ export const GlobalStyle = createGlobalStyle`
   @media (prefers-reduced-motion: reduce) {
     html {
       scroll-behavior: auto;
+    }
+    *, *::before, *::after {
+      transition: none !important;
+      animation: none !important;
     }
   }
 `;

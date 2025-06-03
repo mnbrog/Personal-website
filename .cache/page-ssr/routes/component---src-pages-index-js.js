@@ -16528,30 +16528,20 @@ const Section = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].sectio
 })(["max-width:1200px;margin:0 auto;padding:150px 20px;display:flex;flex-direction:column;align-items:center;@media (max-width:768px){padding:100px 20px;}"]);
 const Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2.withConfig({
   displayName: "About__Title"
-})(["font-size:clamp(26px,5vw,32px);color:", ";font-weight:700;margin-top:20px;text-align:center;"], ({
+})(["font-size:clamp(26px,5vw,32px);color:", ";font-weight:700;margin-bottom:1rem;text-align:center;"], ({
   theme
 }) => theme.colors.white);
-const Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
-  displayName: "About__Content"
-})(["display:flex;flex-direction:column;align-items:center;text-align:center;"]);
 const Text = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div).withConfig({
   displayName: "About__Text"
-})(["max-width:600px;color:", ";font-size:16px;line-height:1.6;align-items:center;text-align:center;"], ({
+})(["max-width:600px;color:", ";font-size:16px;line-height:1.6;text-align:center;p{margin-bottom:1rem;}@media (max-width:768px){font-size:15px;line-height:1.55;}"], ({
   theme
 }) => theme.colors.lightSlate);
-const Skills = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
-  displayName: "About__Skills"
-})(["margin-top:30px;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;"]);
-const Skill = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span.withConfig({
-  displayName: "About__Skill"
-})(["background:", ";color:", ";padding:8px 14px;border-radius:20px;font-size:14px;"], ({
-  theme
-}) => theme.colors.lightNavy, ({
-  theme
-}) => theme.colors.white);
+const Signature = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
+  displayName: "About__Signature"
+})(["display:block;margin:2rem auto 0 auto;max-width:1720px;opacity:0.7;@media (max-width:768px){max-width:100px;margin:1.5rem auto 0 auto;}"]);
 const About = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, {
   id: "about"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Title, null, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Content, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Text, {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Title, null, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Text, {
   initial: {
     opacity: 0,
     y: 20
@@ -16563,7 +16553,13 @@ const About = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().cr
   transition: {
     duration: 0.8
   }
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I'm Michael Brogan, a passionate web developer, software engineer, and design-focused problem solver based in Birmingham, AL. I specialize in building elegant, scalable web solutions using cutting-edge technologies."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "With experience from internships at Tractor Supply Company and Vacayzen, and leading my own design agency GrowLab, I\u2019ve developed a strong foundation in modern frameworks and technologies."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I value clean code, seamless UX, and efficient processes. Whether I'm collaborating with a team or leading a project, I aim to make an impact with every line of code."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skills, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "React"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Vue"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Java"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "SQL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "C++"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "HTML"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "CSS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "MongoDB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Spring Boot"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Bootstrap"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Postman"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Git")))));
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Whenever I run into a tangled UI, I ask myself, \u201CHow can I make this more intuitive\u2014without adding three extra clicks?\u201D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I'm a web developer and design-focused problem solver based in Birmingham, AL. With experience from internships at Tractor Supply Company and Vacayzen, and leading my own design agency GrowLab (", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("em", null, "my coffee\u2011funding side hustle"), "), I\u2019ve built a strong foundation using tools I rely on day in and day out\u2014", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("em", null, "no hype cycles here"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I value clean code, seamless UX, and efficient processes. Whether I'm collaborating with a team or leading a project, I aim to make an impact with every line of code."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Fun fact: I can\u2019t code unless I have at least two houseplants on my desk. Seriously.", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+  role: "img",
+  "aria-label": "plant"
+}, "\uD83C\uDF43")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Tech I use:"), " I spend my mornings in ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "React"), " and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Gatsby"), ", crafting snappy UIs. By afternoon I might be debugging ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Java"), " or ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "C#"), " in Spring Boot. When it\u2019s database time, I\u2019ll reach for ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "MongoDB"), " or ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "MySQL"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Signature, {
+  src: "",
+  alt: ""
+}));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
 
 /***/ }),
@@ -16770,30 +16766,33 @@ __webpack_require__.r(__webpack_exports__);
 
 const Section = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section.withConfig({
   displayName: "Hero__Section"
-})(["padding:250px 20px;text-align:center;color:", ";display:flex;flex-direction:column;align-items:center;justify-content:center;@media (max-width:768px){padding:100px 20px;}"], ({
+})(["padding:200px 20px;text-align:center;color:", ";display:flex;flex-direction:column;align-items:center;justify-content:center;@media (max-width:768px){padding:120px 20px;}"], ({
   theme
 }) => theme.colors.white);
-const Intro = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2.withConfig({
-  displayName: "Hero__Intro"
-})(["font-size:16px;color:", ";margin-bottom:16px;"], ({
-  theme
-}) => theme.colors.teal);
+const HeroPhoto = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
+  displayName: "Hero__HeroPhoto"
+})(["width:250px;height:250px;border-radius:50%;object-fit:cover;margin-bottom:1.5rem;@media (max-width:768px){width:120px;height:120px;margin-bottom:1rem;}"]);
 const Name = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1.withConfig({
   displayName: "Hero__Name"
-})(["font-size:clamp(40px,8vw,60px);margin:0;"]);
-const Tagline = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2.withConfig({
-  displayName: "Hero__Tagline"
-})(["font-size:clamp(28px,6vw,40px);font-weight:400;color:", ";margin-top:10px;"], ({
+})(["font-size:clamp(36px,8vw,56px);margin:0;line-height:1.2;"]);
+const Aside = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span.withConfig({
+  displayName: "Hero__Aside"
+})(["font-size:0.9em;color:", ";font-style:italic;"], ({
   theme
 }) => theme.colors.slate);
+const Tagline = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2.withConfig({
+  displayName: "Hero__Tagline"
+})(["font-size:clamp(24px,6vw,36px);font-weight:400;color:", ";margin-top:0.5rem;@media (max-width:768px){margin-top:0.75rem;}"], ({
+  theme
+}) => theme.colors.lightSlate);
 const MotionDescription = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.p).withConfig({
   displayName: "Hero__MotionDescription"
-})(["max-width:600px;margin-top:30px;font-size:18px;color:", ";"], ({
+})(["max-width:600px;margin:1.5rem auto 0 auto;font-size:1rem;color:", ";@media (max-width:768px){margin:1rem auto 0 auto;font-size:0.95rem;}"], ({
   theme
 }) => theme.colors.lightSlate);
 const CTA = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withConfig({
   displayName: "Hero__CTA"
-})(["margin-top:40px;padding:12px 30px;background-color:transparent;color:", ";border:1px solid ", ";border-radius:4px;font-size:16px;text-decoration:none;transition:all 0.3s ease;&:hover{background-color:", ";color:", ";}"], ({
+})(["margin-top:2.5rem;padding:0.75rem 1.5rem;background-color:transparent;color:", ";border:1px solid ", ";border-radius:4px;font-size:1rem;text-decoration:none;transition:background-color 0.3s ease,color 0.3s ease;&:hover{background-color:", ";color:", ";}@media (max-width:768px){padding:0.65rem 1.25rem;font-size:0.95rem;}"], ({
   theme
 }) => theme.colors.teal, ({
   theme
@@ -16802,12 +16801,20 @@ const CTA = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withConf
 }) => theme.colors.teal, ({
   theme
 }) => theme.colors.darkNavy);
+const CTANote = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p.withConfig({
+  displayName: "Hero__CTANote"
+})(["margin-top:0.5rem;font-size:0.57rem;color:", ";@media (max-width:768px){margin-top:0.75rem;font-size:0.85rem;}"], ({
+  theme
+}) => theme.colors.slate);
 const Hero = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, {
   id: "hero"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Intro, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Name, null, "Hello, my name is Michael Brogan."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Tagline, null, "I build sleek, dynamic web experiences that perform."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(MotionDescription, {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(HeroPhoto, {
+  src: "/pfp.jpeg",
+  alt: "Michael Brogan"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Name, null, "Hey there\u2014I'm Michael Brogan", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Tagline, null, "I build sleek, dynamic web experiences that perform"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(MotionDescription, {
   initial: {
     opacity: 0,
-    y: 30
+    y: 20
   },
   animate: {
     opacity: 1,
@@ -16817,9 +16824,9 @@ const Hero = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().cre
     duration: 0.8,
     delay: 0.4
   }
-}, "I'm a developer and designer creating modern, high-impact websites for startups, businesses, and creators. Currently leading GrowLab and building digital platforms with Gatsby, React, and more."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(CTA, {
+}, "I'm a developer and designer crafting modern, high-impact websites for startups, businesses, and creators. Currently leading GrowLab and building digital platforms with Gatsby, React, and more."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(CTA, {
   href: "#contact"
-}, "Let\u2019s Connect"));
+}, "Let\u2019s Connect"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(CTANote, null, "I actually reply to every email\u2014promise."));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hero);
 
 /***/ }),
@@ -17009,17 +17016,17 @@ const projects = [{
 // ───────────────────────────────────────────────────────────────────
 {
   name: "Alta Vida Tezcal",
-  description: "Tequila · Infused with Hemp",
+  description: "Tequila · Texas",
   logo: "../all veda logo.png",
   url: "https://www.altavidatezcal.com/"
 }, {
-  name: "Coral Ray MSHP",
+  name: "Timucua Outdoors",
   description: "Fly Fishing · Coral Ray",
   logo: "../wise+timucuan+logo.png",
   url: "https://coral-ray-mshp.squarespace.com/"
 }, {
   name: "Kerr Chief",
-  description: "Outdoors · Kerr Chief",
+  description: "Outdoor Clothing · Kerr Chief",
   logo: "../Arrowhead_LGO.png",
   url: "https://www.kerr-chief.com/"
 }];

@@ -36,8 +36,16 @@ const Text = styled(motion.div)`
   color: ${({ theme }) => theme.colors.lightSlate};
   font-size: 16px;
   line-height: 1.6;
-  align-items: center;
   text-align: center;
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 15px;
+    line-height: 1.55;
+  }
 `;
 
 const Skills = styled.div`
@@ -56,6 +64,25 @@ const Skill = styled.span`
   font-size: 14px;
 `;
 
+const PS = styled.p`
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  color: ${({ theme }) => theme.colors.lightSlate};
+
+  a {
+    color: ${({ theme }) => theme.colors.lightSlate};
+    text-decoration: none;
+    border-bottom: 1px dotted ${({ theme }) => theme.colors.lightSlate};
+    transition: color 0.3s, border-color 0.3s, cursor 0.3s;
+
+    &:hover {
+      color: ${({ theme }) => theme.colors.accent};
+      border-color: ${({ theme }) => theme.colors.accent};
+      cursor: url("/goldentsp.png"), auto; /* Custom dog cursor on hover */
+    }
+  }
+`;
+
 const About = () => (
   <Section id="about">
     <Title>About Me</Title>
@@ -66,13 +93,18 @@ const About = () => (
         transition={{ duration: 0.8 }}
       >
         <p>
-          I'm Michael Brogan, a passionate web developer, software engineer, and design-focused problem solver based in Birmingham, AL. I specialize in building elegant, scalable web solutions using cutting-edge technologies.
+          I'm Michael Brogan, a passionate web developer, software engineer, and design-focused
+          problem solver based in Birmingham, AL. I specialize in building elegant, scalable web
+          solutions using cutting-edge technologies.
         </p>
         <p>
-          With experience from internships at Tractor Supply Company and Vacayzen, and leading my own design agency GrowLab, I’ve developed a strong foundation in modern frameworks and technologies.
+          With experience from internships at Tractor Supply Company and Vacayzen, and leading my
+          own design agency GrowLab, I’ve developed a strong foundation in modern frameworks and
+          technologies.
         </p>
         <p>
-          I value clean code, seamless UX, and efficient processes. Whether I'm collaborating with a team or leading a project, I aim to make an impact with every line of code.
+          I value clean code, seamless UX, and efficient processes. Whether I'm collaborating with a
+          team or leading a project, I aim to make an impact with every line of code.
         </p>
         <Skills>
           <Skill>JavaScript</Skill>
@@ -91,6 +123,13 @@ const About = () => (
           <Skill>Git</Skill>
         </Skills>
       </Text>
+      <PS>
+        PS: Check out my&nbsp;
+        <a href="/404">
+          404 page
+        </a>
+        &nbsp;to meet my dog!
+      </PS>
     </Content>
   </Section>
 );
