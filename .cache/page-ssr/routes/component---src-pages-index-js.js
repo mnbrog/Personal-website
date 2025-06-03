@@ -16528,20 +16528,43 @@ const Section = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].sectio
 })(["max-width:1200px;margin:0 auto;padding:150px 20px;display:flex;flex-direction:column;align-items:center;@media (max-width:768px){padding:100px 20px;}"]);
 const Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2.withConfig({
   displayName: "About__Title"
-})(["font-size:clamp(26px,5vw,32px);color:", ";font-weight:700;margin-bottom:1rem;text-align:center;"], ({
+})(["font-size:clamp(26px,5vw,32px);color:", ";font-weight:700;margin-top:20px;text-align:center;"], ({
   theme
 }) => theme.colors.white);
+const Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "About__Content"
+})(["display:flex;flex-direction:column;align-items:center;text-align:center;"]);
 const Text = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div).withConfig({
   displayName: "About__Text"
 })(["max-width:600px;color:", ";font-size:16px;line-height:1.6;text-align:center;p{margin-bottom:1rem;}@media (max-width:768px){font-size:15px;line-height:1.55;}"], ({
   theme
 }) => theme.colors.lightSlate);
-const Signature = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].img.withConfig({
-  displayName: "About__Signature"
-})(["display:block;margin:2rem auto 0 auto;max-width:1720px;opacity:0.7;@media (max-width:768px){max-width:100px;margin:1.5rem auto 0 auto;}"]);
+const Skills = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+  displayName: "About__Skills"
+})(["margin-top:30px;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;"]);
+const Skill = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].span.withConfig({
+  displayName: "About__Skill"
+})(["background:", ";color:", ";padding:8px 14px;border-radius:20px;font-size:14px;"], ({
+  theme
+}) => theme.colors.lightNavy, ({
+  theme
+}) => theme.colors.white);
+const PS = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p.withConfig({
+  displayName: "About__PS"
+})(["margin-top:1rem;font-size:0.75rem;color:", ";a{color:", ";text-decoration:none;border-bottom:1px dotted ", ";transition:color 0.3s,border-color 0.3s,cursor 0.3s;&:hover{color:", ";border-color:", ";cursor:url(\"/goldentsp.png\"),auto;}}"], ({
+  theme
+}) => theme.colors.lightSlate, ({
+  theme
+}) => theme.colors.lightSlate, ({
+  theme
+}) => theme.colors.lightSlate, ({
+  theme
+}) => theme.colors.accent, ({
+  theme
+}) => theme.colors.accent);
 const About = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, {
   id: "about"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Title, null, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Text, {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Title, null, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Content, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Text, {
   initial: {
     opacity: 0,
     y: 20
@@ -16553,13 +16576,9 @@ const About = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().cr
   transition: {
     duration: 0.8
   }
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Whenever I run into a tangled UI, I ask myself, \u201CHow can I make this more intuitive\u2014without adding three extra clicks?\u201D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I'm a web developer and design-focused problem solver based in Birmingham, AL. With experience from internships at Tractor Supply Company and Vacayzen, and leading my own design agency GrowLab (", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("em", null, "my coffee\u2011funding side hustle"), "), I\u2019ve built a strong foundation using tools I rely on day in and day out\u2014", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("em", null, "no hype cycles here"), "."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I value clean code, seamless UX, and efficient processes. Whether I'm collaborating with a team or leading a project, I aim to make an impact with every line of code."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Fun fact: I can\u2019t code unless I have at least two houseplants on my desk. Seriously.", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-  role: "img",
-  "aria-label": "plant"
-}, "\uD83C\uDF43")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Tech I use:"), " I spend my mornings in ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "React"), " and ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Gatsby"), ", crafting snappy UIs. By afternoon I might be debugging ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Java"), " or ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "C#"), " in Spring Boot. When it\u2019s database time, I\u2019ll reach for ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "MongoDB"), " or ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "MySQL"), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Signature, {
-  src: "",
-  alt: ""
-}));
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I'm Michael Brogan, a passionate web developer, software engineer, and design-focused problem solver based in Birmingham, AL. I specialize in building elegant, scalable web solutions using cutting-edge technologies."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "With experience from internships at Tractor Supply Company and Vacayzen, and leading my own design agency GrowLab, I\u2019ve developed a strong foundation in modern frameworks and technologies."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I value clean code, seamless UX, and efficient processes. Whether I'm collaborating with a team or leading a project, I aim to make an impact with every line of code."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skills, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "JavaScript"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "React"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Vue"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Java"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "SQL"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "C++"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "C#"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "HTML"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "CSS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "MongoDB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Spring Boot"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Bootstrap"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Postman"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Skill, null, "Git"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(PS, null, "PS: Check out my\xA0", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+  href: "/404"
+}, "404 page"), "\xA0to meet my dog!")));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
 
 /***/ }),
@@ -16655,7 +16674,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.esm.js");
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs");
 // src/components/Experience.js
+
 
 
 const Section = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section.withConfig({
@@ -16669,9 +16690,11 @@ const Title = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h2.withC
 const Grid = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Experience__Grid"
 })(["display:grid;grid-template-columns:repeat(3,1fr);gap:20px;width:100%;@media (max-width:1024px){grid-template-columns:repeat(2,1fr);}@media (max-width:600px){grid-template-columns:1fr;}"]);
-const Card = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
+
+// We make Card a motion.div so it can animate
+const Card = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div).withConfig({
   displayName: "Experience__Card"
-})(["background-color:", ";padding:20px;border-radius:8px;display:flex;flex-direction:column;align-items:center;text-align:center;transition:transform 0.3s ease;cursor:pointer;&:hover{transform:translateY(-5px);}img{background:white;max-height:100px;width:auto;margin-bottom:20px;object-fit:contain;padding:10px;border-radius:4px;}h3{margin:0;font-size:18px;color:", ";}h4{margin:8px 0 12px;font-size:16px;color:", ";}"], ({
+})(["background-color:", ";padding:20px;border-radius:8px;display:flex;flex-direction:column;align-items:center;text-align:center;cursor:pointer;&:hover{transform:translateY(-5px);box-shadow:0 10px 30px rgba(0,0,0,0.3);}&.alabama-card:hover{cursor:url(\"/alabama-cursor.png\"),auto;}img{background:white;max-height:100px;width:auto;margin-bottom:20px;object-fit:contain;padding:10px;border-radius:4px;}h3{margin:0;font-size:18px;color:", ";}h4{margin:8px 0 12px;font-size:16px;color:", ";}"], ({
   theme
 }) => theme.colors.lightNavy, ({
   theme
@@ -16680,7 +16703,7 @@ const Card = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withC
 }) => theme.colors.teal);
 const DetailsList = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].ul.withConfig({
   displayName: "Experience__DetailsList"
-})(["list-style:none;padding-left:20px;text-align:left;color:", ";li{margin-bottom:8px;position:relative;padding-left:20px;}li::before{content:\"\u25B9\";position:absolute;left:0;color:", ";}"], ({
+})(["list-style:none;padding-left:20px;text-align:left;color:", ";margin-top:12px;li{margin-bottom:8px;position:relative;padding-left:20px;}li::before{content:\"\u25B9\";position:absolute;left:0;color:", ";}"], ({
   theme
 }) => theme.colors.lightSlate, ({
   theme
@@ -16732,15 +16755,35 @@ const Experience = () => {
   };
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, {
     id: "experience"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Title, null, "Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Grid, null, experiences.map((exp, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Card, {
-    key: index,
-    onClick: () => toggleDetails(index)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: exp.logo,
-    alt: exp.company
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, exp.company), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, exp.role, " \xB7 ", exp.location), openIndex === index && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(DetailsList, null, exp.details.map((detail, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
-    key: i
-  }, detail)))))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Title, null, "Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Grid, null, experiences.map((exp, index) => {
+    // If this is the UA card (last entry), add className="alabama-card"
+    const isAlabama = exp.company === "The University of Alabama";
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Card, {
+      key: index,
+      className: isAlabama ? "alabama-card" : "",
+      onClick: () => toggleDetails(index),
+      initial: {
+        opacity: 0,
+        y: 20
+      },
+      whileInView: {
+        opacity: 1,
+        y: 0
+      },
+      viewport: {
+        once: true
+      },
+      transition: {
+        duration: 0.5,
+        delay: index * 0.1
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+      src: exp.logo,
+      alt: exp.company
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, exp.company), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, exp.role, " \xB7 ", exp.location), openIndex === index && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(DetailsList, null, exp.details.map((detail, i) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+      key: i
+    }, detail))));
+  })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Experience);
 
@@ -16824,7 +16867,7 @@ const Hero = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().cre
     duration: 0.8,
     delay: 0.4
   }
-}, "I'm a developer and designer crafting modern, high-impact websites for startups, businesses, and creators. Currently leading GrowLab and building digital platforms with Gatsby, React, and more."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(CTA, {
+}, "I'm a developer and designer crafting modern, high-impact solutions for startups, businesses, and creators. Currently leading GrowLab and building digital platforms with Gatsby, React, and more."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(CTA, {
   href: "#contact"
 }, "Let\u2019s Connect"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(CTANote, null, "I actually reply to every email\u2014promise."));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hero);
@@ -16849,14 +16892,34 @@ __webpack_require__.r(__webpack_exports__);
 
 const Layout = ({
   children
-}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
-  style: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    width: "100%"
-  }
-}, children));
+}) => {
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
+    // Intersection Observer to reveal sections on scroll
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
+
+    // Observe every <section> on the page
+    document.querySelectorAll("section").forEach(section => {
+      observer.observe(section);
+    });
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+    style: {
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      width: "100%"
+    }
+  }, children));
+};
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
 
 /***/ }),
@@ -16889,7 +16952,7 @@ const Logo = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withC
 })(["display:flex;justify-content:center;align-items:center;img{height:140px;width:auto;@media (max-width:768px){height:100px;}@media (max-width:480px){height:80px;}}"]);
 const NavLinks = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].ol.withConfig({
   displayName: "Nav__NavLinks"
-})(["display:flex;list-style:none;flex-wrap:nowrap;justify-content:center;gap:2rem;width:100%;text-align:center;@media (max-width:1024px){gap:1.5rem;}@media (max-width:768px){gap:1rem;}li{margin:0;}a{color:", ";font-weight:500;text-decoration:none;font-size:1rem;transition:color 0.3s;&:hover{color:", ";}}"], ({
+})(["display:flex;list-style:none;flex-wrap:nowrap;justify-content:center;gap:2rem;width:100%;text-align:center;margin:0;@media (max-width:1024px){gap:1.5rem;}@media (max-width:768px){gap:1rem;}li{margin:0;}a{position:relative;color:", ";font-weight:500;text-decoration:none;font-size:1rem;transition:color 0.3s;&::after{content:\"\";position:absolute;bottom:-4px;left:0;width:0;height:6px;background-image:url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='6'><path d='M0 3 Q10 0 20 3 T40 3 T60 3 T80 3 T100 3' stroke='%233FD0C9' stroke-width='2' fill='none'/></svg>\");background-repeat:repeat-x;background-size:100px 6px;transition:width 0.3s ease;}&:hover{color:", ";}&:hover::after{width:100%;}}a.nav-contact{left:-2px;}"], ({
   theme
 }) => theme.colors.lightSlate, ({
   theme
@@ -16907,7 +16970,8 @@ const Nav = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().crea
 }, "Experience")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
   href: "#projects"
 }, "Projects")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-  href: "#contact"
+  href: "#contact",
+  className: "nav-contact"
 }, "Contact"))));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Nav);
 
