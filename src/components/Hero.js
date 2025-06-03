@@ -101,7 +101,7 @@ const CTANote = styled.p`
 
 const Hero = () => (
   <Section id="hero">
-    <HeroPhoto src="/pfp.jpeg" alt="Michael Brogan" />
+    <HeroPhoto src="/headshot.jpg" alt="Michael Brogan" />
     <Name>
       Hey there—I'm Michael Brogan{" "}
       

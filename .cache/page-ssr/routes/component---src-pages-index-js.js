@@ -16694,7 +16694,7 @@ const Grid = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withC
 // We make Card a motion.div so it can animate
 const Card = (0,styled_components__WEBPACK_IMPORTED_MODULE_1__["default"])(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div).withConfig({
   displayName: "Experience__Card"
-})(["background-color:", ";padding:20px;border-radius:8px;display:flex;flex-direction:column;align-items:center;text-align:center;cursor:pointer;&:hover{transform:translateY(-5px);box-shadow:0 10px 30px rgba(0,0,0,0.3);}&.alabama-card:hover{cursor:url(\"/alabama-cursor.png\"),auto;}img{background:white;max-height:100px;width:auto;margin-bottom:20px;object-fit:contain;padding:10px;border-radius:4px;}h3{margin:0;font-size:18px;color:", ";}h4{margin:8px 0 12px;font-size:16px;color:", ";}"], ({
+})(["background-color:", ";padding:20px;border-radius:8px;display:flex;flex-direction:column;align-items:center;text-align:center;cursor:pointer;&:hover{transform:translateY(-5px);box-shadow:0 10px 30px rgba(0,0,0,0.3);}&.alabama-card:hover{cursor:url(\"/alabama-cursors.png\"),auto;}img{background:white;max-height:100px;width:auto;margin-bottom:20px;object-fit:contain;padding:10px;border-radius:4px;}h3{margin:0;font-size:18px;color:", ";}h4{margin:8px 0 12px;font-size:16px;color:", ";}"], ({
   theme
 }) => theme.colors.lightNavy, ({
   theme
