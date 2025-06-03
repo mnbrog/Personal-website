@@ -58,7 +58,7 @@ const Card = styled(motion.div)`
 
   &.alabama-card:hover {
     /* custom cursor when hovering the UA card */
-    cursor: url("/alabama-cursor.png"), auto;
+    cursor: url("/alabama-cursors.png"), auto;
   }
 
   img {
