@@ -83,6 +83,12 @@ const Card = styled.a`
 
 const projects = [
   {
+  name: "VinylSwipe",
+  description: "3D Vinyl Record Player · GitHub:/mnbrog/vinylswipe",
+  logo: "../vinylswipe-logosm.png",
+  url: "https://vinylswipe.netlify.app/"
+ },
+  {
     name: "Michael Brogan Website",
     description: "Developer · michaelnbrogan.com",
     logo: "../logo.png",

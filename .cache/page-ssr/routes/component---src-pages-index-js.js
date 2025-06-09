@@ -16852,7 +16852,7 @@ const CTANote = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].p.with
 const Hero = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, {
   id: "hero"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(HeroPhoto, {
-  src: "/pfp.jpeg",
+  src: "/headshot.jpg",
   alt: "Michael Brogan"
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Name, null, "Hey there\u2014I'm Michael Brogan", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Tagline, null, "I build sleek, dynamic web experiences that perform"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(MotionDescription, {
   initial: {
@@ -17015,6 +17015,11 @@ const Card = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withCon
   theme
 }) => theme.colors.lightSlate);
 const projects = [{
+  name: "VinylSwipe",
+  description: "React front-end 3D vinyl record player app · GitHub: /mnbrog/vinylswipe",
+  logo: "/static/vinylswipe-logosm.png",
+  url: "https://vinylswipe.netlify.app/"
+}, {
   name: "Michael Brogan Website",
   description: "Developer · michaelnbrogan.com",
   logo: "../logo.png",
