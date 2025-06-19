@@ -191,6 +191,12 @@ const projects = [
     description: "Outdoor Clothing · Kerr Chief",
     logo: "../Arrowhead_LGO.png",
     url: "https://www.kerr-chief.com/"
+  },
+  {
+    name: "Upright Medical Solutions",
+    description: "Medical Software · Birmingham, AL",
+    logo: "../Upright Medical Solutions Logo.png",
+    url: "https://upright-medical-solutions.netlify.app/"
   }
 ];
 

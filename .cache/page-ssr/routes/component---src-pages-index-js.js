@@ -17016,8 +17016,8 @@ const Card = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withCon
 }) => theme.colors.lightSlate);
 const projects = [{
   name: "VinylSwipe",
-  description: "React front-end 3D vinyl record player app · GitHub: /mnbrog/vinylswipe",
-  logo: "/static/vinylswipe-logosm.png",
+  description: "3D Vinyl Record Player · GitHub:/mnbrog/vinylswipe",
+  logo: "../vinylswipe-logosm.png",
   url: "https://vinylswipe.netlify.app/"
 }, {
   name: "Michael Brogan Website",
@@ -17098,6 +17098,11 @@ const projects = [{
   description: "Outdoor Clothing · Kerr Chief",
   logo: "../Arrowhead_LGO.png",
   url: "https://www.kerr-chief.com/"
+}, {
+  name: "Upright Medical Solutions",
+  description: "Medical Software · Birmingham, AL",
+  logo: "../Upright Medical Solutions Logo.png",
+  url: "https://upright-medical-solutions.netlify.app/"
 }];
 const Projects = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, {
   id: "projects"
