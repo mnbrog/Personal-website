@@ -17103,6 +17103,16 @@ const projects = [{
   description: "Medical Software · Birmingham, AL",
   logo: "../Upright Medical Solutions Logo.png",
   url: "https://upright-medical-solutions.netlify.app/"
+}, {
+  name: "Trapezi Foods",
+  description: "Greek Food · Birmingham, AL",
+  logo: "../trapezifoods.jpeg",
+  url: "https://trapezifoods.com/"
+}, {
+  name: "Earth Moving Rentals",
+  description: "Equipment Rental · Walton County, Georgia",
+  logo: "../emr.png",
+  url: "https://www.earthmovingrental.com/"
 }];
 const Projects = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Section, {
   id: "projects"
