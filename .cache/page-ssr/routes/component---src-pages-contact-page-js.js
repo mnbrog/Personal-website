@@ -40,17 +40,10 @@ const DownloadLink = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a
 }) => theme.colors.white, ({
   theme
 }) => theme.colors.lightSlate);
-const PhoneLink = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withConfig({
-  displayName: "ContactPage__PhoneLink"
-})(["color:", ";text-decoration:none;font-weight:bold;margin-top:1rem;font-size:1.1em;&:hover{text-decoration:underline;}"], ({
-  theme
-}) => theme.colors.accent);
-const ContactPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ContactWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Heading, null, "Contact Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Message, null, "Need my details? Download my contact card below."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(DownloadLink, {
+const ContactPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(ContactWrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Heading, null, "Contact Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Message, null, "Need my easy to save phone contact? Click my contact card below."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(DownloadLink, {
   href: "/Brogan_Michael.vcf",
   download: true
-}, "\uD83D\uDCC7 Download vCard"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(PhoneLink, {
-  href: "tel:+12059994120"
-}, "\uD83D\uDCDE (205) 999\u20114120"));
+}, "\uD83D\uDCC7 Save Contact Card"));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ContactPage);
 
 /***/ })

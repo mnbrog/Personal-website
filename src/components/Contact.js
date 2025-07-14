@@ -91,7 +91,7 @@ const contacts = [
     name: "Resume",
     description: "Download my resume",
     logo: "https://cdn-icons-png.flaticon.com/512/136/136538.png",
-    url: "/Michael-Brogan-Resume.pdf",
+    url: "/Brogan-Michael-Resume.pdf",
     download: true,
   },
   {
