@@ -196,7 +196,7 @@ const projects = [
     name: "Upright Medical Solutions",
     description: "Medical Software · Birmingham, AL",
     logo: "../Upright Medical Solutions Logo.png",
-    url: "https://upright-medical-solutions.netlify.app/"
+    url: "https://uprightmedicalsolutions.com/"
   },
   {
     name: "Trapezi Foods",
