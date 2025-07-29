@@ -16736,7 +16736,7 @@ const experiences = [{
   company: "GrowLab",
   role: "Founder & Lead Developer",
   location: "Tuscaloosa, AL",
-  logo: "growlab-logo.png",
+  logo: "GrowlabLogo.png",
   details: ["Founded a freelance studio and led a 3-person web team.", "Built 25+ websites for local businesses and organizations.", "Focused on UX/UI design, SEO, and mobile-first development."]
 }, {
   company: "The University of Alabama",
@@ -17017,7 +17017,7 @@ const Card = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withCon
 const projects = [{
   "name": "GrowLab",
   "description": "Web Design",
-  "logo": "https://grow-lab.netlify.app/static/growlabLogoTrans-ba852c05aba24131cd05717314e30817.png",
+  "logo": "../GrowlabLogo.png",
   "url": "https://grow-lab.netlify.app/"
 }, {
   name: "VinylSwipe",

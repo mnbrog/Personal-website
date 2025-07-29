@@ -156,7 +156,7 @@ const experiences = [
     company: "GrowLab",
     role: "Founder & Lead Developer",
     location: "Tuscaloosa, AL",
-    logo: "growlab-logo.png",
+    logo: "GrowlabLogo.png",
     details: [
       "Founded a freelance studio and led a 3-person web team.",
       "Built 25+ websites for local businesses and organizations.",
