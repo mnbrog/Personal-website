@@ -83,6 +83,12 @@ const Card = styled.a`
 
 const projects = [
   {
+  "name": "GrowLab",
+  "description": "Web Design",
+  "logo": "https://grow-lab.netlify.app/static/growlabLogoTrans-ba852c05aba24131cd05717314e30817.png",
+  "url": "https://grow-lab.netlify.app/"
+  },
+  {
   name: "VinylSwipe",
   description: "3D Vinyl Record Player · GitHub:/mnbrog/vinylswipe",
   logo: "../vinylswipe-logosm.png",
