@@ -85,7 +85,7 @@ const projects = [
   {
   "name": "GrowLab",
   "description": "Web Design",
-  "logo": "https://grow-lab.netlify.app/static/growlabLogoTrans-ba852c05aba24131cd05717314e30817.png",
+  "logo": "../GrowlabLogo.png",
   "url": "https://grow-lab.netlify.app/"
   },
   {

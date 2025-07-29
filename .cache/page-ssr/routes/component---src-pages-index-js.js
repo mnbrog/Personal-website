@@ -17015,6 +17015,11 @@ const Card = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].a.withCon
   theme
 }) => theme.colors.lightSlate);
 const projects = [{
+  "name": "GrowLab",
+  "description": "Web Design",
+  "logo": "https://grow-lab.netlify.app/static/growlabLogoTrans-ba852c05aba24131cd05717314e30817.png",
+  "url": "https://grow-lab.netlify.app/"
+}, {
   name: "VinylSwipe",
   description: "3D Vinyl Record Player · GitHub:/mnbrog/vinylswipe",
   logo: "../vinylswipe-logosm.png",
@@ -17102,7 +17107,7 @@ const projects = [{
   name: "Upright Medical Solutions",
   description: "Medical Software · Birmingham, AL",
   logo: "../Upright Medical Solutions Logo.png",
-  url: "https://upright-medical-solutions.netlify.app/"
+  url: "https://uprightmedicalsolutions.com/"
 }, {
   name: "Trapezi Foods",
   description: "Greek Food · Birmingham, AL",
