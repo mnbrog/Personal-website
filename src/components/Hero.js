@@ -103,7 +103,7 @@ const Hero = () => (
   <Section id="hero">
     <HeroPhoto src="/PFPblue.jpg" alt="Michael Brogan" />
     <Name>
-      Hey there—I'm Michael Brogan{" "}
+      Hey there, I'm Michael Brogan{" "}
       
     </Name>
     <Tagline>
