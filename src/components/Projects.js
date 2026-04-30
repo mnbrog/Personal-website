@@ -85,7 +85,7 @@ const projects = [
   {
   "name": "GrowLab",
   "description": "Web Design",
-  "logo": "../GrowlabLogo.png",
+  "logo": "../Growlab-Logo.png",
   "url": "https://grow-lab.netlify.app/"
   },
   {
@@ -108,78 +108,11 @@ const projects = [
     url: "https://www.mckenziestrategies.com/"
   },
   {
-    name: "Thigpen FlyFish",
-    description: "Fishing Guide · SE, Louisiana",
-    logo:
-      "https://assets.softr-files.com/applications/0ffe45ff-98f7-45e9-9168-e620a9489559/assets/78a5cf83-936a-45b1-9aae-68c5f6660ff7.jpeg",
-    url: "https://www.thigpenflyfishing.com"
-  },
-  {
-    name: "Build Art",
-    description: "Builder · Tuscaloosa, AL",
-    logo:
-      "https://assets.softr-files.com/applications/d896b043-47a5-4d37-8c4b-c3c30c5717e2/assets/331b8e4f-72e4-45fa-a6c1-0dc70f00c2df.png",
-    url: "https://www.ttownhouse.com"
-  },
-  {
-    name: "KA Alpha Beta",
-    description: "Fraternity · Tuscaloosa, AL",
-    logo:
-      "https://assets.softr-files.com/applications/110d6191-43fd-407c-8a99-f5ea65c1b4e0/assets/e97fabde-2df1-4fce-9295-8c6ba6cf49eb.png",
-    url: "https://www.kaalphabeta.com"
-  },
-  {
-    name: "Berger Health",
-    description: "Fitness · NO, Louisiana",
-    logo:
-      "https://assets.softr-files.com/applications/9a27a6c3-e4ff-49ca-96b9-f0e33072e73b/assets/91e6e5d1-8263-4992-a28e-80da4982aa18.png",
-    url: "https://www.bergerhealth.org"
-  },
-  {
-    name: "Untold Agency",
-    description: "Media Agency · Miami, FL",
-    logo:
-      "https://assets.softr-files.com/applications/1a0d905f-0aa4-4cb1-92d8-849dc0353006/assets/608d6963-3f0c-46ce-b828-807a0a181252.jpeg",
-    url: "https://www.theuntoldagency.com"
-  },
-  {
-    name: "Creator Map",
-    description: "Creator Platform · United States",
-    logo:
-      "https://assets.softr-files.com/applications/f337a486-9cbb-468b-b871-1a84332cea99/assets/d2cced6b-29b1-4201-9977-9173e7cc3790.png",
-    url: "https://www.thecreatormap.com"
-  },
-  {
-    name: "Seafarer Group",
-    description: "Merch Group · Miami, FL",
-    logo:
-      "https://assets.softr-files.com/applications/d9167292-1fb8-4f1d-87db-c0d2f5a52ab3/assets/142cf2e2-6ff8-4a98-afab-b6bc62d399a3.png",
-    url: "https://www.theseafarergroup.com"
-  },
-  {
-    name: "All Around Movers Co",
-    description: "Moving Company · Birmingham, AL",
-    logo:
-      "https://assets.softr-files.com/applications/db199dc6-b907-4b0e-b218-72ac2169e32e/assets/dd0e48fb-0d43-4b19-8cdf-7f2008a5102e.png",
-    url: "https://AllAroundMovers.softr.app"
-  },
-  {
     name: "Steiner Shipyard",
     description: "Ship Builders · Bayou La Batre, AL",
     logo: "https://steinershipyard.com/wp-content/uploads/2019/04/cropped-steiner-shipyard-logo-2019.png",
     url: "https://steinershipyard.com/"
   },
-  {
-    name: "Farmland Trophies",
-    description: "Hunting Club · Pike County, IL",
-    logo:
-      "https://assets.softr-files.com/applications/88821f58-d243-494b-b3be-64760e4d8c65/assets/f6f94c34-affc-4368-ace3-33fd34450522.png",
-    url: "https://www.farmlandtrophies.com/"
-  },
-
-  // ───────────────────────────────────────────────────────────────────
-  // Newly added entries (make sure the file paths match where you store these PNGs):
-  // ───────────────────────────────────────────────────────────────────
   {
     name: "Alta Vida Tezcal",
     description: "Tequila · Texas",
@@ -211,10 +144,10 @@ const projects = [
     url: "https://trapezifoods.com/"
   },
   {
-    name: "Earth Moving Rentals",
-    description: "Equipment Rental · Walton County, Georgia",
-    logo: "../emr.png",
-    url: "https://www.earthmovingrental.com/"
+    name: "Wax Monkey",
+    description: "Jam Band · Tuscaloosa, Alabama",
+    logo: "../wax-monkey-logo.jpg",
+    url: "https://www.waxmonkeyband.com/"
   }
 ];
 

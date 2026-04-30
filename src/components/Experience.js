@@ -40,7 +40,6 @@ const Grid = styled.div`
   }
 `;
 
-// We make Card a motion.div so it can animate
 const Card = styled(motion.div)`
   background-color: ${({ theme }) => theme.colors.lightNavy};
   padding: 20px;
@@ -56,9 +55,14 @@ const Card = styled(motion.div)`
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   }
 
+  /* Alabama cursor */
   &.alabama-card:hover {
-    /* custom cursor when hovering the UA card */
     cursor: url("/alabama-cursors.png"), auto;
+  }
+
+  /* Tractor Supply cursor */
+  &.tractor-card:hover {
+    cursor: url("/tsc-cursor.jpg"), auto;
   }
 
   img {
@@ -107,6 +111,19 @@ const DetailsList = styled.ul`
 
 const experiences = [
   {
+    company: "Tractor Supply Company",
+    role: "Associate Analyst, IT Financial Systems",
+    location: "Brentwood, TN",
+    logo: "tractor_supply-logo.png",
+    details: [
+      "Managed cloud financial operations (FinOps) across cloud systems, focusing on cost visibility, allocation, and optimization.",
+      "Analyzed cost data to identify anomalies and inefficiencies, improving overall cloud spend performance.",
+      "Automated reporting workflows using Excel, Power Query, and Power Automate to reduce manual effort.",
+      "Collaborated with engineering and finance teams to align cloud spend with business objectives.",
+      "Contributed to forecasting and budgeting through detailed cost analysis and trend insights.",
+    ],
+  },
+  {
     company: "UA System",
     role: "Tech Lead, AI Knowledge Assistant",
     location: "Tuscaloosa, AL",
@@ -142,21 +159,10 @@ const experiences = [
     ],
   },
   {
-    company: "Personal Portfolio Website",
-    role: "Project",
-    location: "Remote",
-    logo: "logo.png",
-    details: [
-      "Built a fully responsive Gatsby site using React and Styled-Components, ensuring seamless viewing on phones, tablets, and desktops.",
-      "Implemented CSS Scroll Snap for smooth, section-by-section navigation across all devices.",
-      "Integrated interactive contact cards, animations, and a mobile-first navigation menu for intuitive engagement and accessibility.",
-    ],
-  },
-  {
     company: "GrowLab",
     role: "Founder & Lead Developer",
     location: "Remote",
-    logo: "GrowlabLogo.png",
+    logo: "Growlab-Logo.png",
     details: [
       "Founded a freelance studio and led a 3-person web team.",
       "Built 25+ websites for local businesses and organizations.",
@@ -188,12 +194,15 @@ const Experience = () => {
       <Title>Experience</Title>
       <Grid>
         {experiences.map((exp, index) => {
-          // If this is the UA card (last entry), add className="alabama-card"
           const isAlabama = exp.company === "The University of Alabama";
+          const isTractor = exp.company === "Tractor Supply Company";
+
           return (
             <Card
               key={index}
-              className={isAlabama ? "alabama-card" : ""}
+              className={`${isAlabama ? "alabama-card" : ""} ${
+                isTractor ? "tractor-card" : ""
+              }`}
               onClick={() => toggleDetails(index)}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
