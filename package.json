@@ -1,11 +1,11 @@
 {
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "npx gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
+    "develop": "node ./node_modules/gatsby/cli.js develop",
+    "start": "node ./node_modules/gatsby/cli.js develop",
+    "build": "node ./node_modules/gatsby/cli.js build",
+    "serve": "node ./node_modules/gatsby/cli.js serve",
+    "clean": "node ./node_modules/gatsby/cli.js clean"
+},
   "dependencies": {
     "babel-plugin-styled-components": "^2.1.4",
     "framer-motion": "^12.15.0",
